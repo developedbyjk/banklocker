@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  font-size: 16px;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  font-family: "Space Grotesk", sans-serif;
+
+}
+
+.locker{
+  height: 430px;
+  width: 400px;
+  background-color: #333;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.lockerheader{
+ color: #f4f4f4;
+ margin: 20px 0px;
+}
+
+.lockersceen{
+  width: 90%;
+  background-color: green;
+  font-weight: bolder;
+  flex-basis: 13%;
+  /* border-radius: 5px; */
+ 
+}
+
+.lockerkeypad{
+  display: flex;
+  width: 90%;
+
+}
+.lockersceen__text {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+}
+.lockerkeypad__row{
+  background-color: aliceblue;
+  width: 100%;
+}
+.lockerkeypad__key{
+  flex: 1;
+  padding: .8em;
+  font-weight: bolder;
+  padding: auto;
+  text-align: center;
+  border: 1px solid #333;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+
+}
+.lockerkeypad__key_submit{
+  text-align: center;
+  padding: 20px;
+}
+.lokersubmit{
+  /* cursor: pointer;
+  background-color: #fff;
+  width: 90%;
+  border: 1px solid #333;
+  padding: .8em;
+  text-align: center; */
+  display: flex;
+  width: 90%;
+  background-color: yellow;
+  
+}
+
+.open{
+  /* flex-basis: 74%; */
+ 
+}
+
+.clear{
+  /* flex-basis: 36%; */
+}
+
+.open, .clear{
+  
+  background-color: aliceblue;
+  font-weight: bolder;
+  padding: .8em;
+  width: 100%;
+  text-align: center;
+  border: 1px solid #333;
+  cursor: pointer;
+}
+
+.lockerhint{
+  margin: 20px 0px;
+  color: #f4f4f4;
+ opacity: 0.5;
+}
+
+.progress{
+  /* background-color: yellow; */
+  width: 90%;
+  display: flex;
+  ;
+}
+
+.bar{
+  height: 10px;
+  background-color: #504f4f;
+  border-radius: 90px;
+  flex-basis: 32.33%;
+  margin: 0px 2px;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+
+
+
+  body {
+    background-color: lightblue;
+  }
+  .locker{
+  
+    max-width: 300px;
+    /* width: 100%; */
+  
+  }
+
+  .lockerheader{
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+}
