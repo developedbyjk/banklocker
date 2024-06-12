@@ -130,6 +130,25 @@ body{
 
 }
 
+
+.me{
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  text-align: center;
+  margin: 20px 0px;
+  width: 170px;
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding:7px;
+  border-radius: 90px;
+  font-family: "Space Grotesk", sans-serif;
+}
+.me a {
+  color: green;
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 600px) {
 
 

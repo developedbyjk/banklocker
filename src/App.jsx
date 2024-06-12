@@ -9,6 +9,8 @@ function App() {
 
 
 
+  
+
   const [num,SetNum] = React.useState([]);
   const [que,SetQue] = React.useState(question);
 
@@ -22,13 +24,6 @@ function App() {
 
   console.log(quetoask)
   
-
-  
-
-
-
-
-
 
 
   const handleClick = (num) => {
@@ -124,7 +119,7 @@ function App() {
               className="open"
               onClick={() => open()}
               id = "open"
-              >Open</div>
+              >Enter</div>
 
               <div 
               className="clear"
@@ -138,7 +133,7 @@ function App() {
           </div>
 
           <div className="lockerhint">
-            <p>💡Hint : this is hint</p>
+            <p>💡Hint : </p>
           </div>
 
         <div className="progress">
@@ -148,6 +143,13 @@ function App() {
         </div>
 
         </div>
+
+    
+
+      </div>
+
+      <div className="me">
+        <a href="https://linktr.ee/developedbyjk">developedbyjk 👋</a>
       </div>
     </>
   )
