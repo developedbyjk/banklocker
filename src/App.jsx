@@ -8,7 +8,6 @@ import {question} from './question'
 function App() {
 
 
-  i am v1
 
 
 
